@@ -1,0 +1,61 @@
+body, #mainWrapper {
+	height: 70%;
+	background-color:rgb(245, 245, 245);
+}
+
+body, .form-control{
+	font-size:12px!important;
+}
+
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.formcontainer{
+	background-color: #DAE8E8;
+	padding: 20px;
+}
+
+.tablecontainer{
+	padding-left: 20px;
+}
+
+.generic-container {
+  width:100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+table {
+	width: 100%;
+}
+thead, tbody, tr, td, th { display: block; }
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+thead th {
+    height: 30px;
+
+    /*text-align: left;*/
+}
+tbody {
+    overflow-y: auto;
+}
+thead {
+    /* fallback */
+}
+tbody td, thead th {
+    float: left;
+}
